@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "349312748468",
+    "project_id": "loginapp-a4742",
+    "storage_bucket": "loginapp-a4742.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:349312748468:android:8a137ac74d10eb91d780e1",
+        "android_client_info": {
+          "package_name": "com.programalltest.googleloginapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAQg66Y1269w0WupODx2tY5m3E6ktJ8GA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
