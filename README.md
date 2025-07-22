@@ -1,56 +1,21 @@
-# Welcome to your Expo app 👋
+# 🚀 Google Login + Stripe Template for Expo
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is a starter **Expo** project configured for:
 
-## Get started
+- 🔐 Google Sign-In (OAuth2)
+- 💳 Stripe Payment Integration
 
-1. Install dependencies
+Built using [`create-expo-app`](https://www.npmjs.com/package/create-expo-app) and designed for quick start with authentication and payments in React Native apps.
 
-   ```bash
-   npm install
-   ```
+---
 
-2. Start the app
+## 📁 Project Structure Setup
 
-   ```bash
-   npx expo start
-   ```
+### ✅ Create a `keys` Folder
 
-In the output, you'll find options to open the app in a
+Inside the project root, create a folder named `keys`, then add a file named `keys.ts` (or `keys.js` if not using TypeScript).
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
-
-
-
-create a folder in root of the project by name keys inside keys make a file name keys there add
-const WEB_CLIENT_ID = 'your id';
-const IOS_CLIENT_ID = 'your id';
+**`keys/keys.ts`**
+```ts
+export const WEB_CLIENT_ID = 'your-web-client-id.apps.googleusercontent.com';
+export const IOS_CLIENT_ID = 'your-ios-client-id.apps.googleusercontent.com';
