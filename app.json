@@ -18,7 +18,10 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.programalltest.googleloginapp",
-      "googleServicesFile": "./GoogleService-Info.plist"
+      "googleServicesFile": "./GoogleService-Info.plist",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -29,12 +32,23 @@
       "googleServicesFile": "./google-services.json"
     },
     "web": {
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/images/favicon.png",
+      "output": "server"
     },
     "extra": {
       "eas": {
         "projectId": "2ac363d7-b9aa-4887-a3aa-2465d36e7b9e"
       }
-    }
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "@stripe/stripe-react-native",
+        {
+          "merchantIdentifier": "merchant.com.googleloginapp",
+          "publishableKey": "pk_test_51RnYWgCjxPvvFWVWL1GH2IIqb2cf0b3PKYrb8zt30Q6Jr2epDjCscCimJt4HrIjQfmviNw81A7r8FKDfhTxWD1EX003EcDRTQu"
+        }
+      ]
+    ]
   }
 }
