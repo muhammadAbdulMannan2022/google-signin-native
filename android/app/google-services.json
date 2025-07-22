@@ -12,7 +12,20 @@
           "package_name": "com.programalltest.googleloginapp"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "349312748468-ibk1le4dl11m8lj2pjc2dgkgs30tcdci.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.programalltest.googleloginapp",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "349312748468-pifidms633jg22601bs6irqnepgblf9e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyDAQg66Y1269w0WupODx2tY5m3E6ktJ8GA"
@@ -20,7 +33,19 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "349312748468-pifidms633jg22601bs6irqnepgblf9e.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "349312748468-2tallbkubhdfebrfj405gkf5afdnl5p6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.programalltest.googleloginapp"
+              }
+            }
+          ]
         }
       }
     }
