@@ -4,6 +4,7 @@
     "slug": "my-google-login-app",
     "version": "1.0.0",
     "orientation": "portrait",
+    "scheme": "googleloginapp",
     "icon": "./assets/images/icon.png",
     "userInterfaceStyle": "light",
     "splash": {

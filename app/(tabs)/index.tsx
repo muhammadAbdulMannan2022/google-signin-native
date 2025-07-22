@@ -1,9 +1,10 @@
+import { IOS_CLIENT_IDS, WEB_CLIENT_IDS } from "@/keys/keys";
 import { GoogleSignin, GoogleSigninButton, statusCodes, User } from '@react-native-google-signin/google-signin';
 import { useEffect, useState } from 'react';
 import { ActivityIndicator, Image, Text, TouchableOpacity, View } from 'react-native';
 
-const WEB_CLIENT_ID = '';
-const IOS_CLIENT_ID = '';
+const WEB_CLIENT_ID = WEB_CLIENT_IDS;
+const IOS_CLIENT_ID = IOS_CLIENT_IDS;
 
 type AuthUser = User | null;
 
